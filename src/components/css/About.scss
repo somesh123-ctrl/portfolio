@@ -1,0 +1,115 @@
+.main{
+padding-top: 40px;
+padding-bottom: 30px;
+height: 2000px;
+
+h2{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+
+.box{
+    border-style: solid;
+    border-radius: 20%;
+    background-color: rgb(151, 241, 151);
+    max-height: 600px;
+    margin-top: 10px;
+  max-width: 570px;
+  margin-left: 300px;
+
+  h3{
+      padding-left: 20px;
+  }
+  
+    .slide-show{
+            .slideshow {
+                overflow: hidden;
+                max-width: 570px;
+                height: 300px;
+                border-radius: 20%;
+                border-style: solid;
+                background-color: black;
+                position: relative;
+            }
+            
+              .slideshowSlider {
+                white-space: nowrap;
+                transition: ease 1000ms;
+              
+              }
+              .slide {
+                display: inline-block;
+              
+                height: 300px;
+            width: 96%;  
+            border-radius: 10px;
+                border-style: solid;
+                border-color: rgb(0, 0, 0);
+              }
+            
+            }
+        }
+            }
+
+
+            @media  (max-device-width: 380px)
+
+            {
+                .main{
+                    padding-top: 30px;
+                    padding-bottom: 10px;
+                    height: 1500px;
+                    
+                    h2{
+                        margin-left: 20px;
+                        margin-top: 20px;
+                        padding-top: 30px;
+                    }
+                    
+                    
+                    .box{
+                        border-style: solid;
+                        border-radius: 20%;
+                        background-color: rgb(151, 241, 151);
+                        max-height: 300px;
+                        margin-top: 10px;
+                      max-width: 270px;
+                      margin-left: 47px;
+                    
+                      h3{
+                          padding-left: 20px;
+                      }
+                      
+                        .slide-show{
+                                .slideshow {
+                                    overflow: hidden;
+                                    max-width: 370px;
+                                    height: 170px;
+                                    border-radius: 20%;
+                                    border-style: solid;
+                                    background-color: black;
+                                    position: relative;
+                                }
+                                
+                                  .slideshowSlider {
+                                    white-space: nowrap;
+                                    transition: ease 1000ms;
+                                  
+                                  }
+                                  .slide {
+                                    display: inline-block;
+                                  
+                                    height: 200px;
+                                width: 96%;  
+                                border-radius: 10px;
+                                    border-style: solid;
+                                    border-color: rgb(0, 0, 0);
+                                  }
+                                
+                                }
+                            }
+                                }
+
+            }
